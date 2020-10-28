@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     font-size: 16px;
-    background: rgb(55 , 60, 67);
+    background: rgb(28 , 31, 34);
   }
   
   a {
@@ -317,7 +317,7 @@ form {
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color:#25292D;
   padding: 20px 10px;
 }
 
@@ -347,7 +347,7 @@ form {
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #1B334B ;
   color: white;
 }
 
@@ -369,4 +369,4 @@ form {
 }
 
 
-  }
+  
