@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'lakeshore';
+    src: url('fonts/LAKESHOR-webfont.eot');
+    src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/LAKESHOR-webfont.woff') format('woff'),
+      url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
+      url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'airstreamregular';
+    src: url('fonts/Airstream-webfont.eot');
+    src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Airstream-webfont.woff') format('woff'),
+      url('fonts/Airstream-webfont.ttf') format('truetype'),
+      url('fonts/Airstream-webfont.svg#airstreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Syne Mono', monospace;
+        @import url();
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    background: rgb(55 , 60, 67);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+ 
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
+  .main-header {
+    flex: 0 1 auto;
+  }
+  
+  .main-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+  .thumbnail-title {
+    display: block;
+    margin: 0;
+    padding: 4px 10px;
+    background: rgb(96, 125, 139);
+    color: rgb(202, 238, 255);
+    font-size: 18px;
+  }
+  
+  .thumbnail-item {
+    display: inline-block;
+    min-width: 120px;
+    max-width: 120px;
+    border: 1px solid rgb(100%, 100%, 100%);
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    transition: transform 133ms ease-in-out;
+  }
+  
+  .thumbnail-item:hover {
+    transform: scale(1.2);
+  }
+  
+  .thumbnail-list {
+    flex: 0 1 auto;
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 0;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  
+  .thumbnail-image {
+    display: block;
+    width: 100%;
+  }
+  
+  .logo-text {
+    background: white;
+    font-family: lakeshore;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 37px;
+  }
+  
+  .detail-image {
+    width: 90%;
+  }
+  
+  
+  
+  
+  .detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .is-tiny {
+    transform: scale(0.001);
+    transition: transform 0ms;
+  }
+  
+  .detail-image-frame {
+    position: relative;
+    text-align: center;
+    transition: transform 333ms cubic-bezier(1, .06, .28, 1);
+  }
+  
+  .detail-image-title {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
+    font-family: airstreamregular;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+    font-size: 40px;
+  }
+  
+  .hidden-detail .detail-image-container {
+    display: none;
+  }
+  
+  .hidden-detail .thumbnail-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hidden-detail .thumbnail-item {
+    max-width: 80%;
+  }
+  
+  .button {
+    background-color: red;
+    width: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 5px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  
+  @media all and (min-width: 768px) {
+    .main-content {
+      flex-direction: row;
+      overflow: hidden;
+    }
+  
+    /* This is the one that doesn't go to the left */
+    .thumbnail-list {
+      flex-direction: column;
+      order: 0;
+      margin-left: 20px;
+      padding: 0 35px;
+    }
+  
+    .thumbnail-item {
+      max-width: 260px;
+    }
+  
+    .thumbnail-item+.thumbnail-item {
+      margin-top: 20px;
+    }
+  
+
+
+/* Bordered form */
+form {
+    border: 3px solid #40474F;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    color: #40474F;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #40474F;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #1B334B;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #002552;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 20px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #40474F;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+
+
+
+  }
