@@ -7,19 +7,22 @@
     <title>Remove Blackmail</title>
     <meta charset="UTF_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="header">
-        <!--This image should be bigger, then shrink with page. Leaving as is for now-->
-        <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailLogo.png" alt="Blackmail"
-                style="text-align: center;  margin: 25px 25px;">
-            <div class="header-right">
-                <a class="active" href="index.html">Home</a>
-                <a href="login.html">Login</a>
-                <a href="contact.html">Contact</a>
-                <a href="remove.html">Remove Blackmail</a>
-                <a href="submit.html">Submit Blackmail</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <container>
+        <div class="header">
+            <!--This image should be bigger, then shrink with page. Leaving as is for now-->
+            <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailLogo.png" alt="Blackmail"
+                    style="text-align: center;  margin: 25px 25px;">
+                <div class="header-right">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="login.html">Login</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="remove.html">Remove Blackmail</a>
+                    <a href="submit.html">Submit Blackmail</a>
+                </div>
             </div>
         </div>
-    </div>
+    </container>
 </head>
 
 <body>
@@ -40,8 +43,8 @@
 
         <button type="button" onclick="document.getElementById('id01').style.display='block'"
             value="Submit">Submit</button>
+        <button type="button" class="cancelbtn" onclick="location.href = 'userportal.html'">Cancel</button>
 
-        <button type="button" class="cancelbtn">Cancel</button>
     </form>
 
     <!-- The Modal -->
@@ -89,8 +92,14 @@
                     </div>
 
                     <div class="container" style="background-color:#40474F">
-                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                            class="cancelbtn">Submit Payment</button>
+                        <!-- This button should link to something to confirm payment -->
+                        <!--  <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Submit Payment</button>   -->
+
+                        <!-- Currently linking it back to the user portal -->
+                        <button type="button" class="cancelbtn"
+                            onclick="location.href = 'userportal.html'">Submit</button>
+
                         <button type="button" onclick="document.getElementById('id01').style.display='none'"
                             class="cancelbtn">Cancel</button>
                     </div>
@@ -106,6 +115,7 @@
     </main>
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <script src="scripts/main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </body>
