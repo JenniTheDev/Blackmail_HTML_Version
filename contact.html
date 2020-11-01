@@ -6,10 +6,10 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
     <div class="header">
         <!--This image should be bigger, then shrink with page. Leaving as is for now-->
-        <div style=" text-align: center" class="img-responsive"> <img src="https://i.imgur.com/WhWoRso.png"
-                alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
+        <div style=" text-align: center; object-fit: cover" width="10000" class="img-responsive"> <img
+                src="img/blackmailLogo.png" alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
             <div class="header-right">
-                <a class="active" href="#home">Home</a>
+                <a class="active" href="index.html">Home</a>
                 <a href="login.html">Login</a>
                 <a href="contact.html">Contact</a>
             </div>
@@ -18,10 +18,34 @@
 
 <body>
 
+    <div class="contact-title">
+        <h1> Questions? Comments? Concerns? Contact us: </h1>
+
+    </div>
 
 
-    <h1>This is a contact page</h1>
 
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="contact@blackmail.com">
+
+            <span>
+                <label for="subject">Subject</label>
+                <textarea id="subject" input type="text" name="subject" placeholder="Write something.."
+                    style="height:100px" cols="50"></textarea></span>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
 
 
 
@@ -31,8 +55,6 @@
     </main>
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <script src="scripts/main.js" charset="utf-8"></script>
-
-
 
 </body>
 

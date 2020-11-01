@@ -33,7 +33,7 @@
   body {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 18px;
     background: rgb(28 , 31, 34);
   }
   
@@ -186,18 +186,23 @@
 /* Bordered form */
 form {
     border: 3px solid #40474F;
+    margin: 8px;
+    padding: 8px;
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  input[type=text], input[type=password], textarea {
     color: #40474F;
-    width: 100%;
+    background-color: #B0B8BF; 
+    width: 99%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 8px;
     display: inline-block;
     border: 1px solid #40474F;
     box-sizing: border-box;
   }
+
+ 
   
   /* Set a style for all buttons */
   button {
@@ -215,7 +220,7 @@ form {
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
+  /* Extra style for the cancel button */
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
