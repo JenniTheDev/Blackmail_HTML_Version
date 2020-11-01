@@ -204,7 +204,7 @@ form {
   
   /* Set a style for all buttons */
   button {
-    background-color: #1B334B;
+    background-color:#1B334B;
     color:white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -213,7 +213,7 @@ form {
     /*width: 100%; */
     width: 100px;
     height: 50px;
-
+    border-radius: 4px;
   }
   
   /* Add a hover effect for buttons */
@@ -225,9 +225,10 @@ form {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #002552;
+    background-color:#1B334B;
+    border-radius: 4px;
   }
-  
+
   /* Center the avatar image inside this container */
   .imgcontainer {
     text-align: center;
@@ -248,7 +249,9 @@ form {
   /* The "Forgot password" text */
   span.psw {
     float: right;
-    padding-top: 16px;
+    margin: auto;
+
+  
   }
   
   /* Change styles for span and cancel button on extra small screens */
@@ -332,9 +335,10 @@ form {
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 25px;
   border-radius: 4px;
 }

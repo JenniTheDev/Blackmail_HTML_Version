@@ -28,21 +28,32 @@
         <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
-        <button type="submit">Login</button>
+        <!--This submit button should submit the form to the database-->
+        <!-- <button type="submit">Login</button> -->
+
+        <!-- This is my button to just make it go to the User portal -->
+        <button type="submit" onclick="location.href = 'userportal.html'">Login</button>
+
+
 
         <!-- Button to open the modal login form -->
         <button type="submit" onclick="document.getElementById('id01').style.display='block'">Sign Up!</button>
     </div>
 
     <div class="container" style="background-color:#40474F">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
+        <button type="submit" class="cancelbtn" onclick="location.href = 'index.html'">Cancel</button>
+        <!--<span class="psw"><a href="#">Forgot password?</a></span> -->
+        <button type="submit" class="cancelbtn" onclick="document.getElementById('id02').style.display='block'"
+            style="float: right">Forgot Password</button>
+    </div>
+    </div>
+
     </div>
 </form>
 
 
 
-<!-- The Modal -->
+<!-- The Modal for sign up -->
 <div id="id01" class="modal">
     <span onclick="document.getElementById('id01').style.display='none'" class="close"
         title="Close Modal">&times;</span>
@@ -61,7 +72,12 @@
             <label for="psw"><b>Enter Password Again</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
 
-            <button type="submit">Login</button>
+            <!-- This is the button that should submit the form to the database -->
+            <!-- <button type="submit">Login</button> -->
+
+            <!-- This is the button that just goes to the User Portal -->
+            <button type="submit" onclick="location.href = 'userportal.html'">Login</button>
+
             <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
@@ -74,6 +90,44 @@
     </form>
 </div>
 
+
+
+<!-- The Modal for forgot password -->
+<div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+        title="Close Modal">&times;</span>
+
+    <!-- Modal Content -->
+
+    <form class="modal-content animate" action="/action_page.php">
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Old Password</b></label>
+            <input type="password" placeholder="Enter Old Password" name="psw" required>
+
+            <label for="psw"><b>New Password</b></label>
+            <input type="password" placeholder="Enter New Password" name="psw" required>
+
+            <!-- This is the button that should submit to the database -->
+            <!-- <button type="submit">Login</button> -->
+
+            <!-- This button goes to the User Portal -->
+            <button type="submit" onclick="location.href = 'userportal.html'">Login</button>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#40474F">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+</div>
 
 <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
 
