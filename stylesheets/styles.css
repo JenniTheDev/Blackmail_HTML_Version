@@ -191,7 +191,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  input[type=text], input[type=password], textarea {
     color: #40474F;
     background-color: #B0B8BF; 
     width: 99%;
@@ -201,6 +201,8 @@ form {
     border: 1px solid #40474F;
     box-sizing: border-box;
   }
+
+ 
   
   /* Set a style for all buttons */
   button {
