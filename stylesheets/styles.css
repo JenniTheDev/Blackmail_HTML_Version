@@ -193,6 +193,7 @@ form {
   /* Full-width inputs */
   input[type=text], input[type=password] {
     color: #40474F;
+    background-color: #B0B8BF; 
     width: 99%;
     padding: 12px 20px;
     margin: 8px 8px;
