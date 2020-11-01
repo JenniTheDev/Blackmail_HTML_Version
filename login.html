@@ -1,4 +1,5 @@
 <!-- For log in, with pop up for user sign up -->
+<!-- HTML done -->
 <!DOCTYPE html>
 <html>
 
@@ -32,19 +33,19 @@
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
 
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+
         <!--This submit button should submit the form to the database-->
         <!-- <button type="submit">Login</button> -->
 
         <!-- This is my button to just make it go to the User portal -->
         <button type="submit" onclick="location.href = 'userportal.html'">Login</button>
 
-
-
         <!-- Button to open the modal login form -->
-        <button type="submit" onclick="document.getElementById('id01').style.display='block'">Sign Up!</button>
+        <button type="submit" onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
     </div>
 
     <div class="container" style="background-color:#40474F">
@@ -53,9 +54,9 @@
         <button type="submit" class="cancelbtn" onclick="document.getElementById('id02').style.display='block'"
             style="float: right">Forgot Password</button>
     </div>
-    </div>
 
-    </div>
+
+
 </form>
 
 
