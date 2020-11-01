@@ -25,8 +25,7 @@
         @import url();
   }
   
-  html,
-  body {
+  html, body {
     height: 100%;
   }
   
@@ -40,9 +39,7 @@
   a {
     text-decoration: none;
   }
-  
- 
-  
+    
   .previous {
     background-color: #f1f1f1;
     color: black;
@@ -66,8 +63,7 @@
     display: flex;
     flex-direction: column;
   }
-  
- 
+   
   .center {
     display: block;
     margin-left: auto;
@@ -75,112 +71,15 @@
     width:100%;
   }
   
-  
-  .thumbnail-title {
-    display: block;
-    margin: 0;
-    padding: 4px 10px;
-    background: rgb(96, 125, 139);
-    color: rgb(202, 238, 255);
-    font-size: 18px;
-  }
-  
-  .thumbnail-item {
-    display: inline-block;
-    min-width: 120px;
-    max-width: 120px;
-    border: 1px solid rgb(100%, 100%, 100%);
-    border: 1px solid rgba(100%, 100%, 100%, 0.8);
-    transition: transform 133ms ease-in-out;
-  }
-  
-  .thumbnail-item:hover {
-    transform: scale(1.2);
-  }
-  
-  .thumbnail-list {
-    flex: 0 1 auto;
-    order: 2;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 20px 0;
-    white-space: nowrap;
-    overflow-x: auto;
-  }
-  
-  .thumbnail-image {
-    display: block;
-    width: 100%;
-  }
-  
-  .logo-text {
+   .logo-text {
     background: white;
     font-family: lakeshore;
     text-align: center;
     text-transform: uppercase;
     font-size: 37px;
   }
-  
-  .detail-image {
-    width: 90%;
-  }
-  
-  
-  
-  
-  .detail-image-container {
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .is-tiny {
-    transform: scale(0.001);
-    transition: transform 0ms;
-  }
-  
-  .detail-image-frame {
-    position: relative;
-    text-align: center;
-    transition: transform 333ms cubic-bezier(1, .06, .28, 1);
-  }
-  
-  .detail-image-title {
-    position: absolute;
-    bottom: -16px;
-    left: 4px;
-    font-family: airstreamregular;
-    color: white;
-    text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
-    font-size: 40px;
-  }
-  
-  .hidden-detail .detail-image-container {
-    display: none;
-  }
-  
-  .hidden-detail .thumbnail-list {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hidden-detail .thumbnail-item {
-    max-width: 80%;
-  }
-  
-  .button {
-    background-color: red;
-    width: 20px;
-    text-align: center;
-    padding: 10px 10px;
-    margin: 0 5px;
-    font-weight: bolder;
-    font-size: 16px;
-  }
-  
-  
+
+        
 /* Bordered form */
 form {
     border: 3px solid #40474F;
@@ -199,8 +98,6 @@ form {
     border: 1px solid #40474F;
     box-sizing: border-box;
   }
-
- 
   
   /* Set a style for all buttons */
   button {
@@ -250,8 +147,6 @@ form {
   span.psw {
     float: right;
     margin: auto;
-
-  
   }
   
   /* Change styles for span and cancel button on extra small screens */
@@ -265,7 +160,6 @@ form {
     }
   }
   
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

@@ -4,6 +4,9 @@
 
 <head>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <title>Contact Us Blackmail</title>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="header">
         <!--This image should be bigger, then shrink with page. Leaving as is for now-->
         <div style=" text-align: center; object-fit: cover" width="10000" class="img-responsive"> <img
@@ -14,19 +17,17 @@
                 <a href="contact.html">Contact</a>
             </div>
         </div>
+    </div>
 </head>
 
 <body>
     <div class="container">
 
         <h1> Questions? Comments? Concerns? Contact us: </h1>
-
     </div>
 
-
-
     <div class="container">
-        <form action="action_page.php">
+        <form action="/action_page.php">
 
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -41,10 +42,10 @@
                 <label for="subject">Subject</label>
                 <textarea id="subject" input type="text" name="subject" placeholder="Write something.."
                     style="height:100px" cols="50"></textarea></span>
-
+            <!-- This button currently links to index on click -->
+            <!-- It can stay that way for now since this is not a working site, and not needed for assignment-->
             <button type="submit" onclick="location.href = 'index.html'">Submit</button>
         </form>
-
     </div>
 
 
