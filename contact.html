@@ -1,4 +1,5 @@
 <!-- May not be needed, but a contact page just in case  -->
+<!-- HTML done -->
 <!DOCTYPE html>
 <html>
 
@@ -24,10 +25,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <container>
 
         <h1> Questions? Comments? Concerns? Contact us: </h1>
-    </div>
+    </container>
 
     <div class="container">
         <form action="/action_page.php">
@@ -45,9 +46,11 @@
                 <label for="subject">Subject</label>
                 <textarea id="subject" input type="text" name="subject" placeholder="Write something.."
                     style="height:100px" cols="50"></textarea></span>
-            <!-- This button currently links to index on click -->
+            <!-- These buttons currently link to index on click -->
             <!-- It can stay that way for now since this is not a working site, and not needed for assignment-->
-            <button type="submit" onclick="location.href = 'index.html'">Submit</button>
+            <button type="button" onclick="location.href = 'index.html'">Submit</button>
+            <button type="button" class="cancelbtn" onclick="location.href = 'index.html'">Cancel</button>
+
         </form>
     </div>
 
