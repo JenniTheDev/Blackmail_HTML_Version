@@ -72,7 +72,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width:100%;
   }
   
   
@@ -181,8 +181,6 @@
   }
   
   
-
-
 /* Bordered form */
 form {
     border: 3px solid #40474F;
@@ -194,7 +192,7 @@ form {
   input[type=text], input[type=password], textarea[type=text] {
     color: #40474F;
     background-color: #B0B8BF; 
-    width: 99%;
+    width: 99%; 
     padding: 12px 20px;
     margin: 8px 8px;
     display: inline-block;
@@ -212,7 +210,10 @@ form {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    /*width: 100%; */
+    width: 100px;
+    height: 50px;
+
   }
   
   /* Add a hover effect for buttons */
