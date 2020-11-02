@@ -1,0 +1,64 @@
+<!-- May not be needed, but a contact page just in case  -->
+<!-- HTML done -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <title>Contact Us Blackmail</title>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <container>
+        <div class="header">
+            <!--This image should be bigger, then shrink with page. Leaving as is for now-->
+            <div style=" text-align: center; object-fit: cover" width="10000" class="img-responsive"> <img
+                    src="img/blackmailLogo.png" alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
+                <div class="header-right">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="login.html">Login</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </container>
+</head>
+
+<body>
+    <container>
+
+        <h1> Questions? Comments? Concerns? Contact us: </h1>
+    </container>
+
+    <div class="container">
+        <form action="/action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="contact@blackmail.com">
+
+            <span>
+                <label for="subject">Subject</label>
+                <textarea id="subject" input type="text" name="subject" placeholder="Write something.."
+                    style="height:100px" cols="50"></textarea></span>
+            <!-- These buttons currently link to index on click -->
+            <!-- It can stay that way for now since this is not a working site, and not needed for assignment-->
+            <button type="button" onclick="location.href = 'index.html'">Submit</button>
+            <button type="button" class="cancelbtn" onclick="location.href = 'index.html'">Cancel</button>
+
+        </form>
+    </div>
+
+
+    </main>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <script src="scripts/main.js" charset="utf-8"></script>
+
+</body>
+
+</html>
