@@ -81,9 +81,32 @@
   }
 
 
-.testpic {
-  max-width: 100%;
-  height: auto;
+.p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.flex-container{
+  display: flex;
+ 
+}
+
+.flex-child{
+  flex: 1;
+  border: 3px solid #40474F;
+  margin-left: 40px;
+  
+}
+.flexchild:firstchild{
+  margin-right:20px;
+
 }
 
         

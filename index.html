@@ -8,39 +8,61 @@
     <meta charset="UTF_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <container></container>
-    <div class="header">
-        <!--This image should be bigger, then shrink with page. Leaving as is for now-->
-        <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailLogo.png" alt="Blackmail"
-                style="text-align: center;  margin: 25px 25px;">
-            <div class="header-right">
-                <a class="active" href="index.html">Home</a>
-                <a href="login.html">Login</a>
-                <a href="contact.html">Contact</a>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <container>
+        <div class="header">
+            <!--This image should be bigger, then shrink with page. Leaving as is for now-->
+            <div style=" text-align: center" class="img-responsive"> <img src="img/blackmaillogo.png" alt="Blackmail"
+                    style="text-align: center;  margin: 25px 25px;">
+                <div class="header-right">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="login.html">Login</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </div>
         </div>
-    </div>
     </container>
 </head>
 
 <body>
+    <main>
 
-    <container class="textpic">
-        <div id='about' class="row" text-align: center; margin-top: 200px; color="black">
+        <div class="container" style="margin: 25px 25px;">
+            <p>
+                <h2 style="text-align: center;"> Have a beef with someone?</h2>
+                <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailthem28px.png"
+                        alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
+                    <h2 style="text-align: center;">Found some embarrassing photos?</h2>
+                    <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailthem28px.png"
+                            alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
+                        <h1 style="text-align: center;">Don't just ruin someone's life for fun, do it for profit!</h1>
+                        <div style=" text-align: center" class="img-responsive"> <img src="img/blackmailthem28px.png"
+                                alt="Blackmail" style="text-align: center;  margin: 25px 25px;">
+            </p>
+        </div>
+
+        <div class="flex-container">
+
+            <div class="flex-child magenta">
+                <h2>Post a Blackmail</h2>
+                <button type="submit" onclick="location.href = 'login.html'">Login</button>
+            </div>
+
+            <div class="flex-child green">
+                <h2>Remove a Blackmail</h2>
+                <button type="submit" onclick="location.href = 'login.html'">Login</button>
+            </div>
 
         </div>
-    </container>
+
+
 
 
 
 
 
     </main>
-    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-    <script src="scripts/main.js" charset="utf-8"></script>
-
-
-
+    <script src="scripts/main.js" charset="utf-8"> </script>
 </body>
 
 </html>
