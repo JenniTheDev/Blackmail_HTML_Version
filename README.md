@@ -41,13 +41,13 @@ Place files in “htdocs” folder located in XAMP install directory
 Run XAMP Control Panel, start Apache and MySQL server 
 
 Navigate to http://localhost/index.html
-
+<br><br>
 ## Backend Database Information <a name="DB"></a> <br>
 
 After installing and running XAMP, navigate to http://localhost/phpmyadmin/
 
 You may also use MySQL Workbench
-
+<br><br>
 ## Usage <a name="Useage"></a> <br>
 * index.html - Welcomes users to the site and announces it's purpose. Provides Login buttons
 * login.html - Allows users to log into the website, sign up for the website, and reset their password if forgotton
