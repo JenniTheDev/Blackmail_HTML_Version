@@ -1,6 +1,7 @@
 # Blackmail <br>
 
 Blackmail is a website where users can Blackmail their friends for fun and profit.
+<br><br>
 
 ## Table of Contents <br>
 
