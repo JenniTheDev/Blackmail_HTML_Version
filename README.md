@@ -23,9 +23,9 @@ The project was suggested to include a user interface page layout using HTML, CS
 ## Features <a name="Features"></a> <br>
 
 A demonstration and explaination of the project by the team members can be found at :
-<p align = "center" style = "width:400px;height:200px;">
-[![Watch the video](https://img.youtube.com/vi/S5OWSymNpg4/maxresdefault.jpg)](https://youtu.be/S5OWSymNpg4)
-</p>
+<a href = "https://youtu.be/S5OWSymNpg4">
+<img src ="https://img.youtube.com/vi/S5OWSymNpg4/maxresdefault.jpg" style = "width:400px;height:200px; >
+</a>
 The pages on the Blackmail site were designed to be simple and easy to use. The index page tells users what the website is about and allows them to login or go to the contact page. The login page features a modal pop up window for the signup and forgot password buttons. Upon login, Users can view all of the current blackmail pictures, submit a blackmail, or remove a blackmail. Submitting a blackmail submits the blackmail to the database. Removing a blackmail picture takes the User to a form where they can enter their information to remove the blackmail. On submittal, a modal popup asks for credit card information. There is also a contact form for anyone logged in or not to contact the website admins. The website scales for different window sizes and for mobile devices. 
 
 
