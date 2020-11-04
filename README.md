@@ -15,3 +15,7 @@ Navigate to http://localhost/index.html
 After installing and running XAMP, navigate to http://localhost/phpmyadmin/
 
 You may also use MySQL Workbench
+
+# Usage
+
+Signup/login to submit or remove a blackmail.
