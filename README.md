@@ -58,10 +58,10 @@ You may also use MySQL Workbench
 
 ## Team Members <a name="Team"></a> <br>
 Team Javascript Sucks
-* Jennifer Felton
-* Anthony Galustyan (Team Leader) 
-* Emilio Lopez
-* Gregory Pierot
+* [Jennifer Felton](https://github.com/jenniferafelton)
+* [Anthony Galustyan - Team Leader](https://github.com/Peeble) 
+* [Emilio Lopez](https://github.com/EALopez1228)
+* [Gregory Pierot](https://github.com/GreyPi)
 
 ## Acknowledgements <a name="Ack"></a> <br>
 
