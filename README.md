@@ -15,7 +15,7 @@ Blackmail is a website where users can Blackmail their friends for fun and profi
 
 ## Introduction <a name="Introduction"></a> <br>
 
-Blackmail is a website created for the Fall 2020 Front End Wed Development class at CSUF. This project was the first project of the semester. The assignment was to use client-side JavaScript, forms, PHP, and MySQL to build an application from a suggested list. Our team chose to create a Blackmail website. 
+Blackmail is a website created for the Fall 2020 Front End Web Development class at CSUF. This project was the first project of the semester. The assignment was to use client-side JavaScript, forms, PHP, and MySQL to build an application from a suggested list. Our team chose to create a Blackmail website. 
 <br><br>
 The project was suggested to include a user interface page layout using HTML, CSS and frameworks like Bootstrap, Javascript, and JS frameworks such as jQuery and Bootstrap, PHP to hit post/retreieve data to the database and MYSQL database to store the data. The project scope was to think of the project as a product that would convince our website users that they should tell others about our site and not as a complete project requiring years of work.   
 <br><br>
